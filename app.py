@@ -31,7 +31,7 @@ def search_flights(
             "cabin_class": cabin_class,
         }
 
-        result = FlightCrew().crew().kickoff(inputs=inputs)
+        result = FlightAg().crew().kickoff(inputs=inputs)
         return str(result)
 
     except Exception as e:
