@@ -2,7 +2,7 @@
 import gradio as gr
 import os
 from dotenv import load_dotenv
-from flight_ag.crew import FlightCrew 
+from flight_ag.crew import FlightAg
 
 
 
